@@ -1,0 +1,118 @@
+/*STYLE SHEET FOR Contact Us BSD.HTML*/
+
+header
+{
+    float:left; 
+    color: #F55635;
+    font-family:harpagan, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 20px;
+    max-width: 100%;
+    height: auto;
+    text-decoration: none;
+ }
+
+a.active {
+    color:#F55635;
+    background-color:transparent;
+    text-decoration: none;
+ }
+
+.navbar
+{
+    float:right;
+    color:#F55635;
+    font-family:harpagan, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 28px;
+    max-width: 100%;
+    height: auto;
+    text-decoration: none;
+ }
+
+
+
+
+nav ul 
+{
+    list-style:none;
+
+}
+
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+body 
+{ 
+    background-color: #C8EDFF;
+
+
+}
+ 
+.center {
+  
+   margin: 0;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #F55635;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 45px;
+   max-width: 100%;
+   height: auto;
+ }
+form {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+
+
+}
+ img.floatleft 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img.floatright 
+{
+    max-width: 100%;
+    height: auto; 
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+   
+}
+footer {
+   padding-top: 50%;
+   margin: 0;
+   position: absolute;
+   top: 110%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #F55635;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   max-width: 100%;
+   height: auto;
+}

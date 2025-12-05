@@ -1,0 +1,115 @@
+/*STYLE SHEET FOR About BSD.HTML*/
+header
+{
+    float:left;
+    background-color:#071A40;
+    color: #F2F2F2;
+    font-family:harpagan, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 20px;
+    max-width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
+a.active {
+    color:  #F2F2F2;
+    background-color:transparent;
+    text-decoration: none;
+}
+
+.navbar
+{
+    float:right;
+    background-color: #071A40;
+    color:#F2F2F2;
+    font-family:harpagan, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 28px;
+    max-width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
+
+
+nav ul 
+{
+    list-style:none;
+
+}
+
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+body 
+{ 
+    background-color:#071A40;
+
+
+}
+
+    
+
+.center {
+   
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+p
+{
+    width: 100%; 
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    color: #f2e3d6;
+    
+   
+}
+
+ img.floatleft 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img.floatright 
+{
+    max-width: 100%;
+    height: auto; 
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+   
+}
+footer {
+   padding-top: 40%;
+   margin: 0;
+   position: absolute;
+   top: 110%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #F55635;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   max-width: 100%;
+   height: auto;
+}

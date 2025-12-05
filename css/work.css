@@ -1,0 +1,174 @@
+/*STYLE SHEET FOR WORK BSD.HTML*/
+header
+{
+    
+    background-color:#071A40;
+    color: #F2F2F2;
+    font-family:harpagan, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 20px;
+    max-width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
+a.active {
+    color:  #F2F2F2;
+    background-color:transparent;
+    text-decoration: none;
+}
+
+.navbar
+{
+    float:right;
+    background-color: #071A40;
+    color:#F2F2F2;
+    font-family:harpagan, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 28px;
+    max-width: 100%;
+    height: auto;
+    text-decoration: none;
+    margin-top: -6%;
+}
+
+
+
+nav ul 
+{
+    list-style:none;
+
+}
+
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+body 
+{ 
+    background-color:#071A40;
+
+
+}
+
+p
+{
+    width: 100%; 
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    color: #f2e3d6;
+}  
+
+.center {
+   
+   margin: 0;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+}
+
+.center-image {
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+
+p1 {
+    width: 100%; 
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    color: #f2e3d6;
+    margin-left: 47%;
+}
+
+div.scroll-container {
+  background-color:#F23064;
+  overflow: auto;
+  white-space: nowrap;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+p2
+{
+    width: 100%; 
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    color: #f2e3d6;
+    margin-left: 42%;
+} 
+
+video.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 177%;
+}
+
+
+audio.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 219%;
+}
+
+
+img.floatleft 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img.floatright 
+{
+    max-width: 100%;
+    height: auto; 
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+    
+   
+}
+footer {
+   padding-top: 200%;
+   margin: 0;
+   position:absolute;
+   top: auto;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #F55635;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   max-width: 100%;
+   height: auto;
+}
